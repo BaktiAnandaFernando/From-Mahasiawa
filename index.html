@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakti Ananda Fernando</title>
+</head>
+<body>
+    <h2>Form Mahasiswa</h2>
+    <label for="npm">Nomor Pokok Mahasiswa</label> <br>
+    <input type="text" name="npm" id="npm"> <br>
+    
+    <label for="nama">Nama Mahasiswa</label> <br>
+    <input type="text" name="nama" id="nama"> <br>
+    
+    <label for="tugas">Tugas</label> <br>
+    <input type="text" name="tugas" id="tugas"> <br>
+   
+    <label for="kuis">Kuis</label> <br>
+    <input type="text" name="kuis" id="kuis"> <br>
+   
+    <label for="uts">UTS</label> <br>
+    <input type="text" name="uts" id="uts"> <br>
+    
+    <label for="uas">UAS</label> <br>
+    <input type="text" name="uas" id="uas"> <br>
+   
+    <label for="softskill">Soft Skill</label> <br>
+    <input type="text" name="softskill" id="softskill"> <br>
+    
+    <p id="na"></p>
+    <p id="nh"></p>
+    <button onclick="simpanData()">Simpan</button>
+     <!--<button id ="bln">Simpan </button>-->
+
+    <h2>Data Mahasiswa</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>NPM</th>
+                <th>Nama Mahasiswa</th>
+                <th>Tugas</th>
+                <th>Kuis</th>
+                <th>UTS</th>
+                <th>UAS</th>
+                <th>SoftSKill</th>
+                <th>Nilai Akhir</th>
+                <th>Nilai Huruf</th>
+                <th>HAPUS</th>
+            </tr>
+        </thead>
+        <tbody id="tblMahasiswa"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
